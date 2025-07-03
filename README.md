@@ -3,7 +3,7 @@ This project fetches user data from a public API and displays it beautifully in 
 
 ## 🌐 Live Demo
 
-> 🔗 [View Live Website](https://<your-github-username>.github.io/<repo-name>/)
+> 🔗 [View Live Website](https://bhumiheda.github.io/User-Data-Fetch)
 
 ---
 
