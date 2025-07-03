@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bc96d6; /* pastel lavender */
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ac6be0; /* soft lilac */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(128, 90, 213, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #40208b; /* deep purple */
+  margin-bottom: 20px;
+}
+
+button#reloadBtn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #290b5e; /* orchid pastel */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(107, 70, 193, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button#reloadBtn:hover {
+  background-color: #561dc7; /* hover deeper */
+  transform: translateY(-2px);
+}
+
+.user-card {
+  background-color: #ab8eca; /* lavender background */
+  border: 1px solid #070707; /* subtle lilac border */
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: scale(1.02);
+}
+
+.user-card h3 {
+  margin-top: 0;
+  color: #1d0a52; /* deep purple text */
+}
+
+.user-card p {
+  color: #2f166b;
+  margin: 4px 0;
+}
+
+#error-message {
+  text-align: center;
+  color: #e71212; /* red for errors */
+  font-weight: bold;
+}
